@@ -20,7 +20,9 @@ comments: True
 
 ## 구간 합과 변경을 반복 한다면?
 
-### 1)구간 left, right가 주어질 때, $$S = A[l] + A[l+1] + A[l+2] + ... + A[r]$$
+### 1)구간 left, right가 주어질 때,
+
+$$S = A[l] + A[l+1] + A[l+2] + ... + A[r]$$
 
 ### S의 값을 구하라.
 
@@ -60,3 +62,5 @@ comments: True
 ## Segment Tree 구조
 
 Segment Tree는 leaf node를 제외한 모든 노드는 항상 2개의 자식을 갖는 **Full Binary Tree** 형태이다.
+
+![Segment Tree Image]({{ site.baseurl }}/assets/img/세그먼트트리.png){: .width-30}
