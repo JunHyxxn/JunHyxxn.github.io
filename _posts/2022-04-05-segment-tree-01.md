@@ -242,7 +242,7 @@ def update(tree, node, index, diff, start, end):
 
 <br><br>
 
-## 💥 결과적으로 트리를 만들고, N번 조회하고, N번 변경하는데 $$O(N * {log_2 N})$$ 가 되며 loop문과 DP보다 효율적으로 수행할 수 있게 된다.
+## 💥 결과적으로 트리를 만들고, M번 조회하고, M번 변경하는데 $$O(M * {log_2 N})$$ 가 되며 loop문과 DP보다 효율적으로 수행할 수 있게 된다.
 
 <br><br>
 ✨ 잘못된 부분은 많은 조언 및 지적 부탁드립니다. - JunHyxxn
