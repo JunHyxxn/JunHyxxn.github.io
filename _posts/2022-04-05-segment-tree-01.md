@@ -1,24 +1,32 @@
 ---
 layout: post
-title: [BOJ] 2357 - 최솟값과 최댓값
-subtitle: 관련 문제 - BOJ 2042 구간합구하기
+title: BOJ - 2357 최솟값과 최댓값
+subtitle: 비슷한 유형 - BOJ 2042 - 구간 합 구하기
 tags: [Algorithm, Segment Tree]
 author: JunHyxxn
 comments: True
 ---
 
-### 문제 풀이에 앞서 Segment Tree에 대한 설명과 어떤 상황에 왜 사용하기 좋은지 먼저 설명하도록 한다.
+# 문제 풀이에 앞서 Segment Tree에 대한 설명과 어떤 상황에 왜 사용하기 좋은지 먼저 설명하도록 한다.
 
----
+<br/>
+<br/>
+<br/>
+<br/>
 
-<h2>1. Segment Tree 왜 사용할까?</h2>
+## 1. Segment Tree 왜 사용할까?
+
 <br>
 
-**Quiz)**  
-1)구간 left, right가 주어질 때, $$S = A[l] + A[l+1] + A[l+2] + ... + A[r]$$
-S의 값을 구하라.  
-2) i번째 수를 변경하라. 즉, $A[i] = v$  
-위의 1), 2) 과정을 반복한다면 $$O(NM)$$
+## 구간 합과 변경을 반복 한다면?
+
+### 1)구간 left, right가 주어질 때, $$S = A[l] + A[l+1] + A[l+2] + ... + A[r]$$
+
+### S의 값을 구하라.
+
+### 2) i번째 수를 변경하라. 즉, $A[i] = v$
+
+### 위의 1), 2) 과정을 반복한다면 $$O(NM)$$
 
 > **loop 문을 통해 1) 식을 해결할 경우.**
 >
@@ -37,8 +45,18 @@ S의 값을 구하라.
 
 ---
 
-### 이렇듯 loop문이나 DP로 해결하게 된다면 O(NM) Time 소요된다. 시간 단축을 위해서 적합한 구조가 Segment Tree 이다.
+<br/><br/>
+
+## 이렇듯 loop문이나 DP로 해결하게 된다면 O(NM) Time 소요된다. 시간 단축을 위해서 적합한 구조가 Segment Tree 이다.
+
+<br/>
+<br/>
 
 ---
 
-# To be Continue
+<br/>
+<br/>
+
+## Segment Tree 구조
+
+Segment Tree는 leaf node를 제외한 모든 노드는 항상 2개의 자식을 갖는 **Full Binary Tree** 형태이다.
