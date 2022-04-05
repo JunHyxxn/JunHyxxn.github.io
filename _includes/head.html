@@ -31,8 +31,6 @@
   {% if page.title %} {% assign title = site.theme_settings.title | append: "-"
   | append: page.title %} {% else %} {% assign title = site.theme_settings.title
   %} {% endif %}
-  <!-- Latex - Math 수식 -->
-  {% if page.use_math%} {% include mathjax_supprot.html%} {% endif %}
   <meta name="title" content="{{ title }}" />
   <meta name="author" content="{{ site.theme_settings.profile.username }}" />
   <meta name="keywords" content="{{ page.tags | join: ',' }}" />
