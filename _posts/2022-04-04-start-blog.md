@@ -4,6 +4,7 @@ title: Coding Blog Start
 subtitle: To Record Algorithm and Project Techniques.
 tags: [Welcome]
 author: JunHyxxn
+use_math: True
 comments: False
 ---
 
