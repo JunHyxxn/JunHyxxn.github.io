@@ -1,8 +1,8 @@
 ---
 layout: post
-title: SSAFY 면접 준비 - AI 1
+title: Interview - AI 1
 subtitle: AI 관련 활동 준비
-tags: [AI, Embedding]
+tags: [AI]
 author: JunHyxxn
 use_math: false
 comments: false
