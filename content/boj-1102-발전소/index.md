@@ -15,7 +15,7 @@ categories: Algorithm BitMasking DP BFS DFS
 
 <br><br>
 
-## 💥 문제 💥
+## 💥 문제
 
 <br><br>
 은진이는 발전소에서 근무한다. 은진이가 회사에서 잠깐 잘 때마다, 몇몇 발전소가 고장이난다.  
