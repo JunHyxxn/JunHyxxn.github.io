@@ -20,4 +20,3 @@ jobs:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
           skip-publish: false
-          gatsby-args: --verbose
