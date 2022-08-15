@@ -74,6 +74,12 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              strict: `ignore`,
+            },
+          },
+          {
             resolve: `gatsby-remark-table-of-contents`,
             options: {
               exclude: 'Table of Contents',
