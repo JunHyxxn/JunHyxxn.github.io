@@ -10,7 +10,9 @@ categories: Algorithm Implementation Greedy
 # BOJ 2140 - 지뢰찾기 <span style = "color:gold" >Gold Ⅴ</span>
 
 <br><br>
+
 [BOJ 2140 - 지뢰찾기](https://www.acmicpc.net/problem/2140)
+
 <br><br>
 
 ## 문제

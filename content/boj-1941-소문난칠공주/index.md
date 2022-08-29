@@ -10,7 +10,9 @@ categories: Algorithm Brute-Force DFS Combination
 # BOJ 1941 - 소문난 칠공주 <span style = "color:gold" >Gold Ⅲ</span>
 
 <br><br>
+
 [BOJ 1941 - 소문난 칠공주](https://www.acmicpc.net/problem/1941)
+
 <br><br>
 
 ## 문제

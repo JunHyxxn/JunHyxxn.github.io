@@ -10,7 +10,9 @@ categories: Algorithm Data-Structure Geometry
 # BOJ 9015 - 정사각형 <span style = "color:gold" >Gold Ⅰ</span>
 
 <br><br>
+
 [BOJ 9015 - 정사각형](https://www.acmicpc.net/problem/9015)
+
 <br><br>
 
 ## 문제

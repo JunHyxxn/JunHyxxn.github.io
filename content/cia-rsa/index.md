@@ -11,7 +11,8 @@ categories: Network TCP CIA RSA TIL
 
 <br><br>
 
-해당 내용은 [메타코딩 - 스프링부트 시큐리티](https://www.youtube.com/watch?v=d9huoyT_Z5g&list=PL93mKxaRDidERCyMaobSLkvSPzYtIk0Ah&index=15) 강의를 들으며 정리한 내용입니다.  
+해당 내용은 [메타코딩 - 스프링부트 시큐리티](https://www.youtube.com/watch?v=d9huoyT_Z5g&list=PL93mKxaRDidERCyMaobSLkvSPzYtIk0Ah&index=15) 강의를 들으며 정리한 내용입니다.
+
 <br>
 
 TCP 통신이 갖고 있는 보안상의 문제점에 대해 살펴보고 RSA 인증 방법을 살펴본다.  

@@ -34,6 +34,7 @@ categories: Network OSI-7계층 TIL
 <br><br>
 
 ![OSI 7 Layer](OSI7LayerImg.png)
+
 <br><br>
 
 응용 프로그램에서 다른 응용 프로그램으로의 통신을 위해 빨간색 화살표를 따라 통신이 이루어진다.  

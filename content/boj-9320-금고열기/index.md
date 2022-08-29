@@ -10,7 +10,9 @@ categories: Algorithm Brute-Force Math
 # BOJ 9320 - 금고열기 <span style = "color:gold" >Gold Ⅲ</span>
 
 <br><br>
+
 [BOJ 9320 - 금고열기](https://www.acmicpc.net/problem/9320)
+
 <br><br>
 
 ## 문제

@@ -10,7 +10,9 @@ categories: Algorithm Implementation Simulation
 # BOJ 23291 - 어항정리 <span style = "color:#00FFCC" >Platinum Ⅴ</span>
 
 <br><br>
+
 [BOJ 23291 - 어항정리](https://www.acmicpc.net/problem/23291)
+
 <br><br>
 
 ## 💥 Rule

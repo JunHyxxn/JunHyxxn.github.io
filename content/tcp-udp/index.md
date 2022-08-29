@@ -50,7 +50,9 @@ SYN : Synchronize Sequence Numbers
 ACK : Acknowledgment
 
 <br>
+
 ![3-Way Handshaking](3-way-handshaking.png)
+
 <br><br>
 
 1️⃣ : Client가 서버에 접속을 요청하는 SYN 패킷을 전송한다.  
@@ -68,6 +70,7 @@ ACK : Acknowledgment
 <br>
 
 ![4-Way Handshaking](4-way-handshaking.png)
+
 <br><br>
 
 1️⃣ : Client가 연결 종료를 요청하는 FIN 플래그를 전송한다.  
@@ -110,7 +113,9 @@ UDP는 일방적인 방식이기 때문에 이에 비해 비교적 느린 속도
 
 마찬가지로 UDP도 우선 간단한 그림을 통해 데이터 송신 과정을 살펴보자.
 <br>
+
 ![UDP 데이터 송신 과정](UDP-Flow.png)
+
 <br><br>
 
 ### UDP 특징
