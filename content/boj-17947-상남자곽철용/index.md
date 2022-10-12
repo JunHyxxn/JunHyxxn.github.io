@@ -10,7 +10,9 @@ categories: Algorithm Greedy Two-Pointer
 # BOJ 17947 - 상남자 곽철용 <span style = "color:gold" >Gold Ⅰ</span>
 
 <br><br>
+
 [BOJ 17947 - 상남자 곽철용](https://www.acmicpc.net/problem/17947)
+
 <br><br>
 
 ## 문제

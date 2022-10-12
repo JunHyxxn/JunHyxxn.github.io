@@ -170,14 +170,22 @@ Arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 이면서
 1️⃣ ( start - end ) 구간이 ( left - right ) 구간과 겹치지 않는 경우.
 
 - 이 경우 더이상 탐색할 필요가 없다.
-  {% highlight python %}if left > end or right < start: {% endhighlight %}
-  <br><br>
+
+```python
+if left > end or right < start:
+```
+
+<br><br>
 
 2️⃣ ( left - right ) 구간이 ( start - end ) 구간을 완전히 포함하는 경우.
 
 - 이 경우 해당 노드를 반환하면서 탐색을 종료하면 된다.
-  {% highlight python %}if left<= start and end <= right: {% endhighlight %}
-  <br><br>
+
+```python
+if left<= start and end <= right:
+```
+
+<br><br>
 
 3️⃣ ( start - end ) 구간이 ( left - right ) 구간을 완전히 포함하거나 겹치는 경우
 
