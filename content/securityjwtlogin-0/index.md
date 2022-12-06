@@ -107,7 +107,28 @@ Spring Security Framework는 Filter 기반이기 때문에 Interceptor와는 다
 
 #### <span style='background-color: #fff5b1'>Authentication</span>
 
-- Authentication은 현재 접근하는 사용자의 정보, 권한등을 담은 정보를 담은 Interface입니다.
+- Authentication은 현재 접근하는 사용자의 정보, 권한등을 담은 정보를 담은 Interface입니다.  
+
+#### <span style='background-color: #fff5b1'>UsernamePasswordAuthenticationToken</span>
+
+- Authentication을 implements한 AbstractAuthenticationToken의 하위 클래스로, User의 ID가 Principal 역할을 하고, Password가 Credential의 역할을 합니다.
+
+#### <span style='background-color: #fff5b1'>UserDetails</span>
+
+- 인증에 성공하여 생성된 UserDetails 객체는 Authentication 객체를 구현한 UsernamePasswordAuthenticationToken을 생성하기 위해 사용됩니다.
+- Authentication 객체 안에는 User 정보가 필요하기 때문에 주로 UserDetails를 implements해 필요한 정보를 담은 User 객체를 만들어 사용합니다.  
+
+#### <span style='background-color: #fff5b1'>UserDetailsService</span>
+
+- loadUserByUsername() 메소드를 통해 DB에서 User 정보를 가져오고 이를 UserDetails에 알맞은 정보들을 담아 UserDetails 객체를 반환해줍니다.
+
+#### <span style='background-color: #fff5b1'>PasswordEncoding</span>
+
+- Password를 암호화할 Encoding을 구현체를 통해 지정할 수 있습니다.
+
+#### <span style='background-color: #fff5b1'>GrantedAuthority</span>
+
+- 현재 사용자가 가진 권한을 의미합니다.
 
 <br><br>
 

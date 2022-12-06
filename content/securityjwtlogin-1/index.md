@@ -131,7 +131,7 @@ mybatis:
 
 #log level Setting
 logging.root: info
-logging.level.com.ssafy: debug
+logging.level.com.jwt: debug
 ```
 
 <br><br>
